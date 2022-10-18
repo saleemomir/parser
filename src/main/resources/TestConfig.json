@@ -1,0 +1,24 @@
+{
+  "documentType": "test",
+  "pageHandlers": [
+    {
+      "pageNumbersApplied": "*",
+      "extractors": [
+        {
+          "detector": {
+            "type": "regex",
+            "parameters": {
+              "name": "value"
+            }
+          },
+          "processor": {
+            "type": "passthrough",
+            "parameters": {
+              "name": "value"
+            }
+          }
+        }
+      ]
+    }
+    ]
+}
